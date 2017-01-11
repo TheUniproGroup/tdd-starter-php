@@ -1,0 +1,25 @@
+{
+  "name": "TheUniproGroup/tdd-starter-php",
+  "description": "TDD Starter Project",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Unipro",
+      "email": "unipro@theuniprogroup.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "5.7.5"
+  },
+  "autoload-dev": {
+    "psr-4" : {
+      "TheUniproGroup\\Tests\\": "tests/src"
+    }
+  },
+  "autoload": {
+    "psr-4" : {
+      "TheUniproGroup\\" : "src"
+    }
+  }
+}
